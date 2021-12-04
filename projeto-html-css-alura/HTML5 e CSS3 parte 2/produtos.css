@@ -30,6 +30,11 @@ nav a {
     text-decoration: none;
 }
 
+nav a:hover {
+    color: rgb(199, 140, 25);
+    text-decoration: underline;
+}
+
 ul.produtos {
     width: 940px;
     margin: 0 auto;
@@ -48,18 +53,21 @@ ul.produtos li {
 }
 
 .produtos li:hover {
-    border-color: rgb(0, 0, 0);
-    border-style: solid;
-    border-width: 2px;
+    border: 2px solid rgb(0, 0, 0);
+    border-color: rgb(199, 140, 25);
+}
+
+.produtos li:active {
+    border-color: rgb(8, 140, 25);
+}
+
+.produtos li:hover h2 {
+    font-size: 2em;
 }
 
 li h2 {
     font-size: 1.8em;
     font-weight: bold;
-}
-
-li img {
-
 }
 
 .descricao {
@@ -70,4 +78,17 @@ li img {
     font-size: 1.3em;
     font-weight: bold;
     margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    background: url(imagens/bg.jpg);
+    padding: 40px 0px;
+}
+
+footer p {
+    color: white;
+    font-size: 0.8em;
+    margin-top: 20px;
+    margin-bottom: -20px;
 }
