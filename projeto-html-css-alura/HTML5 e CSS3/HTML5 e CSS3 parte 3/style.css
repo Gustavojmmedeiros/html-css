@@ -89,7 +89,7 @@ form {
     margin: 40px 0;
 }
 
-form label, form p {
+form label, form legend {
     display: block;
     font-size: 20px;
     margin: 0 0 10px
@@ -106,16 +106,38 @@ form label, form p {
     margin: 20px 0;
 }
 
-p {
-    color: red;
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
 }
 
-form p {
-    color: blue;
+.enviar:hover {
+    background-color: darkorange;
+    transition: .3s all;
+    cursor: pointer;
+    transform: scale(1.05);
 }
 
-form div {
+table {
+    margin: 20px 0 40px;
+}
 
+thead {
+    background: #555555;
+    color: white;
+    font-weight: bold;
+
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px 15px ;
 }
 
 footer {
