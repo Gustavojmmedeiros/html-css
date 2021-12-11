@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+header {
+    background: rgb(187, 187, 187);
+    padding: 20px 0;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(199, 140, 25);
+    text-decoration: underline;
+}
+
+ul.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0px;
+}
+
+ul.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    box-sizing: border-box;
+    padding: 30px 20px;
+    border-radius: 5px;
+}
+
+.produtos li:hover {
+    border: 2px solid rgb(0, 0, 0);
+    border-color: rgb(199, 140, 25);
+}
+
+.produtos li:active {
+    border-color: rgb(8, 140, 25);
+}
+
+.produtos li:hover h2 {
+    font-size: 2em;
+}
+
+li h2 {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+.descricao {
+    font-size: 1.1em;
+}
+
+.preco {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form p {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+p {
+    color: red;
+}
+
+form p {
+    color: blue;
+}
+
+form div {
+
+}
+
+footer {
+    text-align: center;
+    background: url(imagens/bg.jpg);
+    padding: 40px 0px;
+}
+
+footer p {
+    color: white;
+    font-size: 0.8em;
+    margin-top: 20px;
+    margin-bottom: -20px;
+}
+
