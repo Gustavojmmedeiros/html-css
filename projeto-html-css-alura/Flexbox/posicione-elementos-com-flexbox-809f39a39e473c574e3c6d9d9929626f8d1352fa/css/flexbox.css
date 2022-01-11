@@ -1,0 +1,11 @@
+@charset "UTF-8"; 
+
+.cabecalhoPrincipal-titulo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.cabecalhoPrincipal-nav {
+    display: inline-block;
+}
+
