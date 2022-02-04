@@ -2,14 +2,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
 
-.bloco__5 {
-    background-image: url('../imagens/background002.jpg');
+.blocos__brancos {
+    background-color: white;
+    font-size: 3vw;
+    font-family: 'Sriracha', cursive;
     padding-bottom: 10vh;
     padding-left: 30px;
     padding-top: 10vh;
-}
-
-.paragrafo__5 {
-    font-family: 'Sriracha', cursive;
-    font-size: 3em;
 }
