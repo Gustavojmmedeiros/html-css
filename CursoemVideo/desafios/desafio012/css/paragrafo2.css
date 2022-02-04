@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+
+.bloco__2 {
+    background-image: url('../imagens/background001.jpg');
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    padding-top: 10vh;
+}
+
+.paragrafo__2 {
+    font-family: 'Sriracha', cursive;
+    font-size: 3em;
+}
